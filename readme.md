@@ -13,7 +13,7 @@ Once the conda enviroment is activated, we can procees to training the model.
 ## Training
 For training the model, the following command can be used 
 ```bash
-python main.py --train {training path} --val {validation path} --epochs_base {base epoch} --epochs {final epoch} --batch {batch size} --steps {steps} 
+python main.py --train {training path} --val {validation path} --epochs {final epoch} --batch {batch size} --steps {steps} 
 ```
 {training path} : Path to the training image set  
 {validation path} : Path to the validation image set  
